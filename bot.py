@@ -460,9 +460,7 @@ while 1:  # has to stay here otherwise bot.message_loop(on_chat_message) won't w
 
         # opens file, takes old min and max, if difference with current min or max is greater than x than it changes those values
         with open("price.txt", "r") as price_file:
-            file_price = price_file.readline()
-            if file_price != '0':
-                change_price = float(file_price)
+                change_price = price_file.readline()
 
         possible_new_change_price = update_price(change_price)
 
