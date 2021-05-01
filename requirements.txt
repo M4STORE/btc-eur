@@ -19,6 +19,7 @@ requests==2.25.1
 rubicon-objc==0.4.0
 selenium==3.141.0
 six==1.15.0
+telepot==12.7
 typing-extensions==3.7.4.3
 urllib3==1.24.1
 yarl==1.6.3
