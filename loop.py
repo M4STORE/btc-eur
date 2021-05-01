@@ -5,7 +5,6 @@ import threading
 import traceback
 import collections
 
-from appdirs import unicode
 
 try:
     import Queue as queue
